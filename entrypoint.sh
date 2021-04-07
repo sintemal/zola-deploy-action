@@ -64,7 +64,7 @@ main() {
         exit 0
     else
         echo "Pushing artifacts to ${TARGET_REPOSITORY}:$remote_branch"
-
+        cp CNMAE public/
         cd public
         git init
         git config user.name "GitHub Actions"
